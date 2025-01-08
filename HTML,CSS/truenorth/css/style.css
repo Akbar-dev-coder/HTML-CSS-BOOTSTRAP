@@ -1,0 +1,340 @@
+*      {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Merriweather', serif;
+}
+
+html   {
+	scroll-behavior: smooth;
+}
+
+a     {
+	text-decoration: none;
+	color: inherit;
+}
+
+#main  {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#header  {
+	width: 100%;
+	background-image: url('../images/headerbg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#header_top {
+	width: 100%;
+	height: 1000px;
+}
+
+.logo   {
+	width: 55%;
+	text-align: right;
+	float: left;
+	margin: 55px 0px 0px 0px;
+}
+
+.logo img {
+	width: 120px;
+}
+
+.logo_title {
+	width: 43%;
+	float: left;
+	text-align: right;
+	padding: 60px 0px 0px 0px;
+}
+
+.logo_title img {
+	width: 370px;
+}
+
+#header_bottom {
+	width: 100%;
+	height: 485px;
+	border-top: 15px solid #182d55;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+}
+
+#header_bottom .overlay {
+	padding: 1px 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#header_bottom ul {
+	width: 100%;
+	margin-top: 20px;
+	list-style: none;
+}
+
+#header_bottom ul li {
+	float: left;
+	padding: 15px 35px;
+	font-size: 14px;
+	font-family: time new roman;
+	border-right: 2px solid white;
+}
+
+#header_bottom ul li:nth-child(1) {
+	margin-left: 105px;
+}
+
+#header_bottom ul li a {
+	color: white;
+}
+
+#header_bottom ul li:nth-child(5) {
+	border: none;
+}
+
+#middiv1 {
+	width: 100%;
+	background-color: #182d55;
+	border-top: 35px solid #182d55;
+	border-bottom: 35px solid #182d55;
+}
+
+#middiv1 img {
+	width: 1000px;
+	height: 182px;
+}
+
+#aerial  {
+	width: 100%;
+}
+
+#aerial .top  {
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/frameimg1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.top .overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title  {
+	width: 72%;
+	padding-top: 150px;
+	margin: 0px auto;
+}
+
+ span {
+	height: 35px;
+	color: white;
+	float: left;
+	padding: 0px 10px;
+	text-align: center;
+	margin-top: -23px;
+	border: 8px solid white;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: time new roman;
+}
+
+.border1  {
+	width: 32%;
+	float: left;
+	border: 2px solid white;
+}
+
+.border2  {
+	width: 32%;
+	float: left;
+	border: 2px solid white;
+}
+
+.bottom  {
+	width: 100%;
+}
+
+.bottom p {
+	margin: 100px 58px;
+	line-height: 35px;
+	color: #182D55;
+	text-align: center;
+	font-size: 25px;
+}
+
+.for_query {
+	width: 41%;
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	color: #182D55;
+}
+
+.section_fan  {
+	width: 220px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.bottom_link {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 80px;
+	font-size: 25px;
+	cursor: pointer;
+	color: #182D55;
+
+}
+
+#helicopter_services  {
+	width: 100%;
+}
+
+#helicopter_services .top  {
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/frameimg2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.helicopter_bottom  {
+	width: 100%;
+}
+.helicopter_bottom p:nth-child(1) {
+	margin: 100px 58px 35px 58px;
+	line-height: 35px;
+	color: #182D55;
+	text-align: center;
+	font-size: 25px;
+}
+
+.helicopter_bottom p:nth-child(2) {
+	line-height: 35px;
+	color: #182D55;
+	text-align: center;
+	font-size: 25px;
+}
+
+.helicopter_bottom p:nth-child(3) {
+	margin: 0px 58px 35px 58px;
+	line-height: 35px;
+	color: #182D55;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+#flight_training_centre  {
+	width: 100%;
+}
+
+#flight_training_centre .top  {
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/frameimg3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+#flight_training_centre .title  {
+	width: 83%;
+	padding-top: 150px;
+	margin: 0px auto;
+}
+
+#charters  {
+	width: 100%;
+}
+
+#charters .title  {
+	width: 70%;
+	padding-top: 150px;
+	margin: 0px auto;
+}
+
+#charters .border1  {
+	width: 39%;
+	float: left;
+	border: 2px solid white;
+}
+
+#charters .border2  {
+	width: 39%;
+	float: left;
+	border: 2px solid white;
+}
+
+#charters .top  {
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/frameimg4.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#contact_us  {
+	width: 100%;
+}
+
+#contact_us .title  {
+	width: 77%;
+	padding-top: 150px;
+	margin: 0px auto;
+}
+
+#contact_us .border1  {
+	width: 39%;
+	float: left;
+	border: 2px solid white;
+}
+
+#contact_us .border2  {
+	width: 39%;
+	float: left;
+	border: 2px solid white;
+}
+
+
+#contact_us .top  {
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/frameimg5.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contact_details1 {
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 25px;
+	color: #182D55;
+}
+
+.contact_details2 {
+	width: 35%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 40px;
+	font-size: 25px;
+	color: #182D55;
+}
+
+.contact_bottom_link {
+	width: 85%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 50px;
+	font-size: 25px;
+	cursor: pointer;
+	color: #182D55;
+	padding-top: 25px;
+	margin-top: 150px;
+	border-top: 2px solid #182D55;
+}

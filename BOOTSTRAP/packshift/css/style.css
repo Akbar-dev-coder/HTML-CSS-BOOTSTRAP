@@ -1,0 +1,224 @@
+
+.top_nav {
+    z-index: 12;
+}
+.call_button {
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 30px 30px 0px 30px;
+    background-color: blue;
+    font-size: 25px;
+    animation-name: bg_change;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+}
+@keyframes bg_change {
+    0%  {
+        background-color: blue;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+.header {
+    background: url('../image/banner.jpg') top center;
+    background-size: cover;
+    background-position-y: -90px;
+    background-repeat: no-repeat;
+}
+.c1 {
+    padding: 70px 12px;
+}
+.c2 {
+    padding: 50px 12px 0px 12px;
+}
+.form {
+    background-color: #F3F3F3;
+    padding: 30px 20px;
+}
+.code {
+    background-color: yellow;
+}
+.captcha {
+    margin: 0px 1px;
+}
+.get_text {
+    font-size: 18px;
+}
+.by_clicking {
+    font-size: 12px;
+}
+input::placeholder {
+    font-size: 12px;
+}
+h4 {
+    font-size: 18px;
+    color: #035fae;
+}
+h5 {
+    color: #035fae; 
+}
+.pv_text {
+    color: #035fae;
+}
+.pv_text span {
+    color: #ffcf40;
+}
+.ocs_main {
+    background-color: #f4f4f4;
+}
+.ocs_card {
+    border-radius: 30px 30px 30px 30px !important;
+}
+.ocs_img {
+    border-radius: 30px 30px 0px 0px !important;
+}
+.why_card {
+    background-color: #f4f4f4;
+}
+.why_packshipt_img {
+    width: 80px;
+    height: 80px;
+}
+.why_card h4 {
+    color: black;
+}
+.our_main {
+    background-color: #155ED1;
+}
+.happy_customer {
+    padding: 60px 0px 35px 0px;
+    background-color: #fff;
+}
+.carousel-indicators {
+    list-style: none;
+}
+.carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+.card-0 {
+    position: relative;
+    color: #fff;
+    height: 312px;
+    margin-left: 70px;
+    background-color: #155ED1;
+    border-radius: 10px;
+}
+.profile {
+    color: #fff;
+    background-color: #ffcf40;
+    position: absolute;
+    left: -70px;
+    top: 20%;
+    border-radius: 8px;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+}
+.open-qt {
+    margin-left: 130px;
+    margin-top: 100px;
+}
+.content1 {
+    margin: 0px 80px 0px 150px;
+}
+.our_client_main {
+    background-color: #f4f4f4;
+}
+/* ------------------carousel ----------------*/
+
+.carousel-wrap {
+    /* width: 100%; */
+    position: relative;
+  }
+  
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100; 
+    -webkit-backface-visibility: hidden; 
+  }
+  
+  /* end fix */
+  .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+  
+  .owl-nav i {
+    font-size: 52px;
+  }
+  
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+  
+  .owl-nav .owl-next {
+    right: -30px;
+  }
+
+  .branch_info {
+    background-color: #f4f4f4;
+  }
+  .branch_info i {
+    font-size: 40px;
+    color: #ffcf40;
+  }
+
+  .packers_movers .main {
+    background-color: #f4f4f4;
+  }
+  footer {
+    padding: 10px 0px;
+    background-color: #155ED1;
+  }
+  .terms:hover {
+    transition: 0.5s;
+    color: brown;
+  }
+  .lines {
+    margin-top: 5px;
+    border: 1px solid white;
+  }
+  @keyframes truck_moving {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 120%;
+    }
+  }
+  .truck {
+    position: fixed;
+    left: -200px;
+    bottom: 0px;
+    z-index: 999;
+    animation: truck_moving 10s 0s infinite linear;
+  }
+  @keyframes wheel_rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+  }
+  .rotate_wheel {
+    display: flex;
+    justify-content: space-around;
+  }
+
+   .rotate_wheel img {
+    animation: wheel_rotate 3s 0s infinite linear;
+}
+.arrow {
+    right: 25px;
+    bottom: 15px;
+}
